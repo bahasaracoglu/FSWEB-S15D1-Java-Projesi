@@ -11,7 +11,7 @@ public class GroceryList {
             if (!checkItemIsInList(item)) {
                 cart.add(item);
             } else {
-                System.out.println("Can not add " + " which is already in list.");
+                System.out.println("Can not add " + " which is already in list. ");
             }
         }
         Collections.sort(cart);
