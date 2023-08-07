@@ -8,12 +8,13 @@ public class ShoppinCart {
         Scanner sc = new Scanner(System.in);
 
         boolean isOn = true;
-        while(isOn = true){
-            System.out.println("İlerlemek için seçim yapın:\n"+"0 Çıkış\n"+"1 Ekleme\n"+"2 Çıkarma");
+        while(isOn){
+            System.out.println("İlerlemek için seçim yapınız:\n"+"0 Çıkış\n"+"1 Ekleme\n"+"2 Çıkarma");
             int input = sc.nextInt();
         switch (input) {
             case (0) :
                 isOn = false;
+                System.out.println("Programdan çıkış yapıldı.");
                 break;
             case (1):
                 System.out.println("Eklenmesini istediğiniz elemanları giriniz.");
