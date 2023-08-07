@@ -3,7 +3,7 @@ package com.workintech.model.arrayListChallange;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class GroceryList extends ArrayList {
+public class GroceryList {
 
     private ArrayList<String> cart = new ArrayList<>();
     public void addItems(String... items) {
